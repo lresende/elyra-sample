@@ -1,4 +1,9 @@
 import pandas as pd
+import sys
+
+
+print(f'Number of arguments: {len(sys.argv)} arguments.')
+print(f'Argument List: {str(sys.argv)}')
 
 # Update input csv files
 files = ['input-1.csv', 'input-2.csv']
